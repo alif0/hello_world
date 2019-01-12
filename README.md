@@ -2,6 +2,7 @@
 Python Hello World example
 
 Tutorial content:
+0. Install GIT and what is GIT
 1. Install Python & what is Python
   1.1 Install Python
   1.2 Install JetBrain's PyCharm IDE
