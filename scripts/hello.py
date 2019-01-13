@@ -1,11 +1,30 @@
 ## First program
 
-name = "Firasath welcome to Python!"
-
+name = "Welcome to Python!"
 print(name)
 
-print("hello", "{name}".format(name=name))
 
+name = """Welcome to Python!\
+          Welcome to DevOps
+		  Welcome to DataScience with Mohammed Ali!!!
+      """
+print(name)
+
+name = "Welcome to Python!" + "\nWelcome to Devops" + "\nWelcome to DataScience with Mohammed Ali!!!"
+print(name)
+
+
+x = 10
+y = str(x)
+print(x)
+print(type(x))
+print(id(x))
+print(y)
+print(type(y))
+print(id(y))
+
+
+#print("hello", "{name}".format(name=name))
 
 #name = input("Enter your name:")
 
