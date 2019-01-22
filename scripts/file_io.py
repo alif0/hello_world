@@ -32,6 +32,18 @@ def cat(in_file):
 	# return the dictionary
 	return(0)
 
+def cat2(in_file):
+	fobj = open(in_file, "r")   # "r"-read, "w"-write, "a"-append, default without anything is "r"
+	str = fobj.read()            # read entire file into str
+	print(str)
+	fobj.close()
+
+	fobj = open(in_file, "r")   # "r"-read, "w"-write, "a"-append, default without anything is "r"
+	str = fobj.readlines()       # read line at a time
+	print(str)
+	fobj.close()
+	
+	
 def out(out_file):
 	''' function to write content to file
 
