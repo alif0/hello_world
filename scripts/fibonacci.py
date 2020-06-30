@@ -9,6 +9,8 @@ def fib(n):
 	Returns:
 	nothing
 	'''
+	print("Called from ",__name__)
+
 	a, b = 0, 1              #Note multiple assignment!
 	counter = 1
 	while counter < n:
@@ -17,7 +19,6 @@ def fib(n):
 		print()
 		counter += 1
 
-	print(__name__)
 	return(0)
 
 ################################################# #################################################
